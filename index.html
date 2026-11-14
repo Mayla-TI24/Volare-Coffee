@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volare Coffee | Lift Your Day — Yogyakarta</title>
+  <meta name="description" content="Volare Coffee Yogyakarta — Kafe spesialis kopi, matcha, dan aneka kreasi Ube Series berbahan Homemade Ube Jam alami di Caturtunggal, Depok, Sleman, Yogyakarta.">
+  <meta name="keywords" content="Volare Coffee, Coffee Shop Jogja, Matcha Ube, Ube Latte, Kafe Aesthetic Yogyakarta, Kafe WFC Jogja">
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+
+  
+  <link rel="stylesheet" href="assets/css/volare.css">
+</head>
+<body>
+
+  
+  <div class="site-topbar" role="complementary" aria-label="Informasi alamat kafe">
+    <div class="container">
+      <a href="https://maps.app.goo.gl/wXt1myrRh1uadoa68" target="_blank" rel="noopener noreferrer" class="topbar-address-link" title="Buka rute ke Volare Coffee di Google Maps">
+        <i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Caturtunggal, Depok, Sleman, Yogyakarta &nbsp;<i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+
+  
+  <header class="site-header" role="banner">
+    <div class="container nav-inner">
+      <a href="#beranda" class="site-logo" aria-label="Volare Coffee — Halaman Utama">
+        <img src="assets/img/volare/logo_badge.png" alt="Logo Volare Coffee" width="36" height="36">
+        <div class="site-logo-text">
+          <span class="site-logo-name">Volare Coffee</span>
+          <span class="site-logo-tagline">Lift Your Day</span>
+        </div>
+      </a>
+
+      
+      <nav class="nav-menu" id="navMenu" role="navigation" aria-label="Navigasi utama">
+        <a href="#beranda" aria-current="page">Beranda</a>
+        <details class="nav-dropdown">
+          <summary class="nav-dropdown-toggle">
+            Tentang <i class="bi bi-chevron-down" aria-hidden="true"></i>
+          </summary>
+          <div class="nav-dropdown-menu">
+            <a href="#tentang">Cerita Kami</a>
+            <a href="#struktur">Struktur Organisasi</a>
+          </div>
+        </details>
+        <details class="nav-dropdown">
+          <summary class="nav-dropdown-toggle">
+            Menu <i class="bi bi-chevron-down" aria-hidden="true"></i>
+          </summary>
+          <div class="nav-dropdown-menu">
+            <a href="#menu">Menu Signature</a>
+            <a href="#homemade-recipe">Homemade Recipe</a>
+            <a href="#menu-lengkap">Pilihan Lainnya</a>
+          </div>
+        </details>
+        <details class="nav-dropdown">
+          <summary class="nav-dropdown-toggle">
+            Sorotan <i class="bi bi-chevron-down" aria-hidden="true"></i>
+          </summary>
+          <div class="nav-dropdown-menu">
+            <a href="#keunggulan">Keunggulan</a>
+            <a href="#galeri">Galeri</a>
+            <a href="#ulasan">Ulasan</a>
+          </div>
+        </details>
+        <a href="#reservasi">Reservasi &amp; Kontak</a>
+        <button class="language-toggle" id="languageToggle" type="button" aria-label="Ganti bahasa ke Inggris" title="Ganti bahasa ke Inggris">
+          <i class="bi bi-translate" aria-hidden="true"></i>
+          <span id="languageToggleLabel">EN</span>
+        </button>
+      </nav>
+
+      
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Buka/tutup menu navigasi">
+        <i class="bi bi-list" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    
+    <section class="hero" id="beranda" aria-labelledby="hero-heading">
+      <picture class="hero-picture">
+        <source media="(max-width: 768px)" srcset="assets/img/volare/hero_signature_drinks.jpg">
+        <img
+          class="hero-banner"
+          src="assets/img/volare/hero_banner_bg.jpg"
+          alt="Tiga minuman signature Volare Coffee: Matcha, Strawberry, dan Ube"
+          width="1920"
+          height="1070"
+          fetchpriority="high">
+      </picture>
+      <img
+        class="hero-brand-logo"
+        src="assets/img/volare/hero_official_logo.png"
+        alt="Logo Volare Coffee"
+        width="330"
+        height="250">
+      <img
+        class="hero-mobile-logo"
+        src="assets/img/volare/extracted_banner_logo.png"
+        alt="Logo Volare Coffee"
+        width="190"
+        height="185">
+      <h1 class="visually-hidden" id="hero-heading">Volare Coffee</h1>
+      <div class="hero-copy">
+        <p class="hero-subtitle">Lift Your Day</p>
+        <p class="hero-lead">
+          Kami tidak sabar untuk bertemu denganmu dan kami senang melihat setiap momen yang kamu bagikan bersama Volare.
+        </p>
+        <p class="hero-desc">
+          Temukan minuman favoritmu, nikmati suasana yang nyaman, dan ciptakan momen menyenangkan bersama orang-orang tersayang.
+        </p>
+        <a href="#menu" class="btn btn-primary hero-cta">
+          Jelajahi Menu <i class="bi bi-arrow-down-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+
+    
+    <section class="section section--alt" id="tentang" aria-labelledby="tentang-heading" data-nav-section>
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-content">
+            <div class="section-label">
+              <i class="bi bi-info-circle" aria-hidden="true"></i> Tentang Kami
+            </div>
+            <h2 id="tentang-heading">Cerita di Balik<br>Volare Coffee</h2>
+
+            <p>
+              Didirikan di Yogyakarta, Volare Coffee hadir sebagai tempat bagi siapa saja yang ingin menikmati waktu dengan cara yang lebih menyenangkan. Berawal dari kecintaan terhadap kopi, matcha, dan kreasi minuman yang unik, Volare ingin menghadirkan pengalaman menikmati minuman yang bukan hanya tentang rasa, tetapi juga tentang suasana dan cerita di balik setiap kunjungan.
+            </p>
+            <p>
+              Dengan perpaduan suasana yang nyaman, pilihan minuman yang menarik, serta sentuhan warna hijau dan ungu yang menjadi identitas kami, Volare Coffee menjadi tempat untuk beristirahat sejenak dari kesibukan, bertemu teman, menyelesaikan pekerjaan, atau sekadar menikmati waktu sendiri.
+            </p>
+            <p>
+              Karena setiap momen sederhana layak ditemani dengan minuman yang istimewa.
+            </p>
+            <blockquote class="about-blockquote">
+              "Selamat datang di Volare Coffee, tempat setiap tegukan mampu membangkitkan semangat harimu."
+            </blockquote>
+          </div>
+
+          <div class="about-gallery" aria-label="Foto suasana kafe">
+            <div class="gallery-cell gallery-cell--wide">
+              <img src="assets/img/volare/image8.jpeg" alt="Ruang duduk indoor Volare Coffee yang nyaman dan adem" loading="lazy">
+            </div>
+            <div class="gallery-cell">
+              <img src="assets/img/volare/image7.jpeg" alt="Area barista bar Volare Coffee" loading="lazy">
+            </div>
+            <div class="gallery-cell">
+              <img src="assets/img/volare/image6.png" alt="Area duduk outdoor Volare Coffee" loading="lazy">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section" id="menu" aria-labelledby="menu-heading">
+      <div class="container">
+
+        <div class="section-header section-header--menu-showcase">
+          <div class="section-label section-label--purple">
+            <i class="bi bi-stars" aria-hidden="true"></i> Menu signature
+          </div>
+          <h2 class="section-title" id="menu-heading">Menu Andalan <mark>Volare Coffee</mark></h2>
+          <p class="section-desc">
+            Tiga racikan favorit dengan karakter rasa yang berbeda—dibuat untuk menemani harimu.
+          </p>
+        </div>
+
+        <div class="feature-bar" aria-label="Keunggulan produk" role="list">
+          <div class="feature-pill" role="listitem"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Ubi asli</div>
+          <div class="feature-pill" role="listitem"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Selai ubi buatan sendiri</div>
+          <div class="feature-pill" role="listitem"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Tanpa perisa buatan</div>
+        </div>
+
+        <div class="drink-cards" role="list" aria-label="Daftar menu andalan">
+
+          <article class="drink-card" role="listitem">
+            <div class="drink-card-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Matcha Ube">
+              <div class="drink-card-inner">
+                <div class="drink-card-face drink-card-front">
+                  <div class="drink-card-visual drink-card-visual--matcha">
+                    <img src="assets/img/volare/drink_matcha_ube.jpg" alt="Minuman Matcha Ube dengan lapisan matcha dan ube" loading="lazy" width="448" height="510">
+                  </div>
+                  <span class="drink-card-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span>
+                </div>
+                <div class="drink-card-face drink-card-back">
+                  <div class="drink-card-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE SIGNATURE</div>
+                  <div class="drink-card-heading">
+                    <h3 class="drink-card-name">Matcha Ube</h3>
+                    <span class="drink-card-price">32K</span>
+                  </div>
+                  <p class="drink-card-desc">Rasa matcha yang earthy berpadu dengan selai ubi buatan sendiri yang lembut dan manis alami.</p>
+                  <span class="drink-card-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="drink-card" role="listitem">
+            <div class="drink-card-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Ube Berry Cloud">
+              <div class="drink-card-inner">
+                <div class="drink-card-face drink-card-front">
+                  <div class="drink-card-visual drink-card-visual--berry">
+                    <img src="assets/img/volare/drink_ube_berry_cloud.jpg" alt="Minuman Ube Berry Cloud dengan stroberi segar" loading="lazy" width="448" height="525">
+                  </div>
+                  <span class="drink-card-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span>
+                </div>
+                <div class="drink-card-face drink-card-back">
+                  <div class="drink-card-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE SIGNATURE</div>
+                  <div class="drink-card-heading">
+                    <h3 class="drink-card-name">Ube Berry Cloud</h3>
+                    <span class="drink-card-price">30K</span>
+                  </div>
+                  <p class="drink-card-desc">Ube yang creamy berpadu dengan stroberi segar dan lapisan cloud yang ringan.</p>
+                  <span class="drink-card-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="drink-card" role="listitem">
+            <div class="drink-card-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Ube Latte">
+              <div class="drink-card-inner">
+                <div class="drink-card-face drink-card-front">
+                  <div class="drink-card-visual drink-card-visual--latte">
+                    <img src="assets/img/volare/drink_ube_latte.jpg" alt="Minuman Ube Latte dengan lapisan kopi dan ube" loading="lazy" width="448" height="525">
+                  </div>
+                  <span class="drink-card-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span>
+                </div>
+                <div class="drink-card-face drink-card-back">
+                  <div class="drink-card-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE SIGNATURE</div>
+                  <div class="drink-card-heading">
+                    <h3 class="drink-card-name">Ube Latte</h3>
+                    <span class="drink-card-price">29K</span>
+                  </div>
+                  <p class="drink-card-desc">Latte lembut dengan selai ubi buatan sendiri dan rasa manis yang seimbang.</p>
+                  <span class="drink-card-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="menu-section-actions">
+          <a href="#menu-lengkap" class="btn btn-outline">
+            Lihat menu lainnya <i class="bi bi-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        
+        <div class="poster-banner">
+          <img src="assets/img/volare/ube_poster_clean.png" alt="Poster Resmi Launching New Menu Ube Series Volare Coffee" loading="lazy">
+          <div class="poster-banner-text">
+            <div class="section-label section-label--purple">
+              <i class="bi bi-award" aria-hidden="true"></i> Homemade Recipe
+            </div>
+            <h3 id="homemade-recipe" data-nav-section>Kenapa Menu Ube Menjadi Highlight di Volare?</h3>
+            <p>
+              Kami mengangkat produk olahan ube istimewa karena memberikan cita rasa autentik dan kelembutan khas yang sempurna saat dipadukan dengan matcha maupun kopi. Selai ube dibuat segar secara homemade tanpa bahan pengawet dan perisa buatan!
+            </p>
+            <div class="poster-banner-actions">
+              <a href="#reservasi" class="btn btn-primary">
+                <i class="bi bi-calendar-check" aria-hidden="true"></i> Reservasi Meja Sekarang
+              </a>
+              <a href="https://gofood.link/a/NFK8N2W?utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <i class="bi bi-bag-plus" aria-hidden="true"></i> Pesan via GoFood
+              </a>
+              <a href="https://food.grab.com/id/id/restaurant/volare-coffee-catur-tunggal-delivery/6-C6XTMBW2VX6ZVN" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <i class="bi bi-bicycle" aria-hidden="true"></i> Pesan via GrabFood
+              </a>
+              <a href="https://shopee.co.id/universal-link/now-food/shop/21829354?deep_and_deferred=1&amp;shareChannel=copy_link" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <i class="bi bi-shop" aria-hidden="true"></i> Pesan via ShopeeFood
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    
+    <section class="section section--alt" id="menu-lengkap" aria-labelledby="menu-lengkap-heading">
+      <div class="container">
+
+        <div class="section-header section-header--center">
+          <div class="section-label"><i class="bi bi-list-stars" aria-hidden="true"></i> Pilihan Lainnya</div>
+          <h2 class="section-title" id="menu-lengkap-heading">Menu Tambahan <mark>Volare Coffee</mark></h2>
+          <p class="section-desc">Dari espresso racikan barista, mocktail segar, aneka latte, matcha series, hingga smoothies bowl yang menyehatkan.</p>
+        </div>
+
+        
+        <div class="menu-filter" role="tablist" aria-label="Filter kategori menu">
+          <button class="filter-btn" data-filter="signature" role="tab" aria-selected="false">Signature</button>
+          <button class="filter-btn" data-filter="matcha" role="tab" aria-selected="false">Matcha Series</button>
+          <button class="filter-btn" data-filter="daily-latte" role="tab" aria-selected="false">Daily Latte</button>
+          <button class="filter-btn" data-filter="fruit-latte" role="tab" aria-selected="false">Fruit &amp; Flavoured</button>
+          <button class="filter-btn" data-filter="espresso" role="tab" aria-selected="false">Espresso Based</button>
+          <button class="filter-btn" data-filter="milkbased" role="tab" aria-selected="false">Milkbased</button>
+          <button class="filter-btn" data-filter="mocktail" role="tab" aria-selected="false">Refresh Mocktail</button>
+          <button class="filter-btn" data-filter="smoothies" role="tab" aria-selected="false">Smoothies Bowl</button>
+          <button class="filter-btn" data-filter="tea" role="tab" aria-selected="false">Tea &amp; Other</button>
+        </div>
+
+        
+        <div class="menu-category" data-cat="signature" hidden>
+          <div class="menu-category-intro">
+            <div class="menu-category-heading">
+              <div class="menu-cat-header"><i class="bi bi-stars" aria-hidden="true"></i> SIGNATURE</div>
+              <p>Racikan khas Volare untuk pengalaman minum yang berbeda.</p>
+            </div>
+          </div>
+          <div class="menu-items">
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Black Yuzu"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-black-yuzu.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Black Yuzu</h4><p class="menu-item-desc">Espresso infused with refreshing yuzu</p></div><div class="menu-item-price">32.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Roasted Corn"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-roasted-corn.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Roasted Corn</h4><p class="menu-item-desc">Unique savory-sweet roasted corn sensation</p></div><div class="menu-item-price">29.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Coffee Monkey"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-coffee-monkey.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Coffee Monkey</h4><p class="menu-item-desc">Creamy coffee with a touch of banana &amp; chocolate</p></div><div class="menu-item-price">32.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+          </div>
+        </div>
+
+        
+        <div class="menu-category" data-cat="matcha" hidden>
+          <div class="menu-category-intro">
+            <div class="menu-category-heading">
+              <div class="menu-cat-header"><i class="bi bi-flower1" aria-hidden="true"></i> MATCHA SERIES</div>
+              <p>Pilihan matcha dengan paduan rasa yang lembut dan khas.</p>
+            </div>
+          </div>
+          <div class="menu-items">
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Matcha Banana"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-matcha-banana.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Matcha Banana</h4><p class="menu-item-desc">Matcha berpadu manisnya pisang</p></div><div class="menu-item-price">29.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Matcha Coconut"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-matcha-coconut.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Matcha Coconut</h4><p class="menu-item-desc">Matcha dengan aroma kelapa tropis</p></div><div class="menu-item-price">29.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Matcha Mango"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-matcha-mango.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Matcha Mango</h4><p class="menu-item-desc">Matcha kaya rasa berpadu mangga segar</p></div><div class="menu-item-price">29.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Matcha Raspberry"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-matcha-raspberry.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Matcha Raspberry</h4><p class="menu-item-desc">Matcha berpadu asam manis buah raspberry</p></div><div class="menu-item-price">29.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+          </div>
+        </div>
+
+        
+        <div class="menu-category" data-cat="daily-latte" hidden>
+          <div class="menu-category-intro">
+            <div class="menu-category-heading">
+              <div class="menu-cat-header"><i class="bi bi-cup" aria-hidden="true"></i> DAILY LATTE</div>
+              <p>Latte untuk menemani rutinitas harianmu.</p>
+            </div>
+          </div>
+          <div class="menu-items">
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Colossus"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-colossus.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Colossus</h4><p class="menu-item-desc">Latte andalan harian dengan creamy pas</p></div><div class="menu-item-price">24.000 <small>Ice</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Venice"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-venice.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Venice</h4><p class="menu-item-desc">Smooth &amp; subtle sweet latte</p></div><div class="menu-item-price">25.000 <small>Ice</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Butterscotch"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-butterscotch.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Butterscotch</h4><p class="menu-item-desc">Rich caramelized butterscotch latte</p></div><div class="menu-item-price">26.000 <small>Ice</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+          </div>
+        </div>
+
+        
+        <div class="menu-category" data-cat="fruit-latte" hidden>
+          <div class="menu-category-intro">
+            <div class="menu-category-heading">
+              <div class="menu-cat-header"><i class="bi bi-droplet-half" aria-hidden="true"></i> NATURAL FRUIT &amp; FLAVOURED LATTE</div>
+              <p>Rasa buah dan latte berpadu dalam pilihan yang segar.</p>
+            </div>
+          </div>
+          <div class="menu-items">
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Banana Latte"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-banana-latte.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Banana Latte</h4><p class="menu-item-desc">Natural fruit latte</p></div><div class="menu-item-price">29.000 <small>Ice</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Raspberry Latte"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-raspberry-latte.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Raspberry Latte</h4><p class="menu-item-desc">Natural fruit latte</p></div><div class="menu-item-price">29.000 <small>Ice</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Coconut Espresso"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-coconut-espresso.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Coconut Espresso</h4><p class="menu-item-desc">Flavoured latte</p></div><div class="menu-item-price">26.000 <small>Ice</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Coconut Latte"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-coconut-latte.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Coconut Latte</h4><p class="menu-item-desc">Flavoured latte</p></div><div class="menu-item-price">28.000 <small>Ice</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Caramel Macchiato"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-caramel-macchiato.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Caramel Macchiato</h4><p class="menu-item-desc">Classic buttery caramel sweetness</p></div><div class="menu-item-price">30.000 <small>Ice</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Creme Brulee Latte"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-creme-brulee-latte.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Creme Brulee Latte</h4><p class="menu-item-desc">Torched caramelized cream sensation</p></div><div class="menu-item-price">30.000 <small>Ice</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+          </div>
+        </div>
+
+        
+        <div class="menu-category" data-cat="espresso" hidden>
+          <div class="menu-category-intro">
+            <div class="menu-category-heading">
+              <div class="menu-cat-header"><i class="bi bi-cup-hot-fill" aria-hidden="true"></i> ESPRESSO BASED</div>
+              <p>Kopi berbasis espresso, tersedia panas maupun dingin.</p>
+            </div>
+          </div>
+          <div class="menu-items">
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail White (Latte / Cappuccino)"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-white.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>White (Latte / Cappuccino)</h4><p class="menu-item-desc">Espresso with velvety steamed milk</p></div><div class="menu-item-price">25.000 <small>Ice</small> / 22.000 <small>Hot</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Black (Americano / Long Black)"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-black.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Black (Americano / Long Black)</h4><p class="menu-item-desc">Pure bold coffee notes</p></div><div class="menu-item-price">23.000 <small>Ice</small> / 20.000 <small>Hot</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+          </div>
+        </div>
+
+        
+        <div class="menu-category" data-cat="milkbased" hidden>
+          <div class="menu-category-intro">
+            <div class="menu-category-heading">
+              <div class="menu-cat-header"><i class="bi bi-cup-straw" aria-hidden="true"></i> MILKBASED</div>
+              <p>Minuman creamy dengan pilihan rasa favorit.</p>
+            </div>
+          </div>
+          <div class="menu-items">
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Matcha"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-matcha.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Matcha</h4><p class="menu-item-desc">Classic pure matcha milk</p></div><div class="menu-item-price">29.000 <small>Ice</small> / 26.000 <small>Hot</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Red Velvet"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-red-velvet.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Red Velvet</h4><p class="menu-item-desc">Velvety smooth cocoa sweetness</p></div><div class="menu-item-price">29.000 <small>Ice</small> / 26.000 <small>Hot</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Chocolatte"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-chocolatte.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Chocolatte</h4><p class="menu-item-desc">Rich authentic chocolate blend</p></div><div class="menu-item-price">29.000 <small>Ice</small> / 26.000 <small>Hot</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Chocolatte Raspberry"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-chocolatte-raspberry.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Chocolatte Raspberry</h4><p class="menu-item-desc">Dark chocolate with tangy raspberry</p></div><div class="menu-item-price">29.000 <small>Ice</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+          </div>
+        </div>
+
+        
+        <div class="menu-category" data-cat="mocktail" hidden>
+          <div class="menu-category-intro">
+            <div class="menu-category-heading">
+              <div class="menu-cat-header"><i class="bi bi-tropical-storm" aria-hidden="true"></i> REFRESH MOCKTAIL</div>
+              <p>Minuman segar untuk dinikmati kapan saja.</p>
+            </div>
+          </div>
+          <div class="menu-items">
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Honey, It&#x27;s Refreshing"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-honey-it-s-refreshing.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Honey, It's Refreshing</h4><p class="menu-item-desc">Honey blossom fresh fizzy drink</p></div><div class="menu-item-price">28.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Raspberry Coffee"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-raspberry-coffee.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Raspberry Coffee</h4><p class="menu-item-desc">Sparkling cold coffee with raspberry</p></div><div class="menu-item-price">29.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Lavender Coffee Tonic"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-lavender-coffee-tonic.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Lavender Coffee Tonic</h4><p class="menu-item-desc">Aromatic floral lavender with tonic coffee</p></div><div class="menu-item-price">30.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Peach Sparkling"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-peach-sparkling.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Peach Sparkling</h4><p class="menu-item-desc">Sweet peach fizz sensation</p></div><div class="menu-item-price">30.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Lychee Fizz"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-lychee-fizz.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Lychee Fizz</h4><p class="menu-item-desc">Fresh lychee with bubbly goodness</p></div><div class="menu-item-price">30.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+          </div>
+        </div>
+
+        
+        <div class="menu-category" data-cat="smoothies" hidden>
+          <div class="menu-category-intro">
+            <div class="menu-category-heading">
+              <div class="menu-cat-header"><i class="bi bi-egg-fried" aria-hidden="true"></i> SMOOTHIES BOWL</div>
+              <p>Pilihan smoothies buah dengan topping yang beragam.</p>
+            </div>
+          </div>
+          <div class="menu-items">
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Mango Smoothies"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-mango-smoothies-bowl.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Mango Smoothies</h4><p class="menu-item-desc">Fresh tropical mango puree bowl</p></div><div class="menu-item-price">38.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Dragon Smoothies"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-dragon-smoothies.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Dragon Smoothies</h4><p class="menu-item-desc">Vibrant healthy dragon fruit bowl</p></div><div class="menu-item-price">36.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Smoothies Original"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-smoothies-original.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Smoothies Original</h4><p class="menu-item-desc">Blended fruit delight with wholesome toppings</p></div><div class="menu-item-price">38.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Berry Gang Smoothies"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-berry-gang-smoothies.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Berry Gang Smoothies</h4><p class="menu-item-desc">Mixed berry goodness with granola toppings</p></div><div class="menu-item-price">36.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+          </div>
+        </div>
+
+        
+        <div class="menu-category" data-cat="tea" hidden>
+          <div class="menu-category-intro">
+            <div class="menu-category-heading">
+              <div class="menu-cat-header"><i class="bi bi-cup-hot" aria-hidden="true"></i> ARTISAN TEA, ADD ON &amp; OTHER</div>
+              <p>Teh artisan, add-on, dan pilihan pendamping lainnya.</p>
+            </div>
+          </div>
+          <div class="menu-items">
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Artisan Tea"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-artisan-tea.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Artisan Tea</h4><p class="menu-item-desc">Pilihan teh artisan hangat berkualitas</p></div><div class="menu-item-price">22.000 <small>Hot</small></div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Air Mineral Prestine 400ml"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-air-mineral-prestine-400ml.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Air Mineral Prestine 400ml</h4><p class="menu-item-desc">Air mineral botol</p></div><div class="menu-item-price">9.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Extra Oatmilk"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-extra-oatmilk.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Extra Oatmilk</h4><p class="menu-item-desc">Plant-based milk add-on</p></div><div class="menu-item-price">+ 5.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Extra Espresso Shot"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-extra-espresso-shot.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Extra Espresso Shot</h4><p class="menu-item-desc">Tambahan shot kopi lebih mantap</p></div><div class="menu-item-price">+ 5.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+            <article class="menu-item" role="listitem"><div class="menu-item-toggle" role="button" tabindex="0" aria-pressed="false" aria-label="Balik kartu untuk melihat detail Extra Salt Cream"><div class="menu-item-inner"><div class="menu-item-face menu-item-front"><img class="menu-item-image" src="assets/img/volare/volare-extra-salt-cream.png" alt="" loading="lazy" width="1200" height="1200"><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk detail</span></div><div class="menu-item-face menu-item-back"><div class="menu-item-back-mark"><i class="bi bi-stars" aria-hidden="true"></i> VOLARE COFFEE</div><div class="menu-item-info"><h4>Extra Salt Cream</h4><p class="menu-item-desc">Topping krim gurih lembut</p></div><div class="menu-item-price">+ 3.000</div><span class="menu-item-hint"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Sentuh untuk kembali</span></div></div></article>
+          </div>
+        </div>
+
+        
+        <div class="menu-action-row">
+          <div class="menu-action-row-text">
+            <h3>Ingin Melihat Lembar Menu Fisik?</h3>
+            <p>Klik tombol di samping untuk melihat foto lembar menu cetak fisik Volare Coffee secara lengkap.</p>
+          </div>
+          <button class="btn btn-primary" id="showPhysicalMenu">
+            <i class="bi bi-image" aria-hidden="true"></i> Lihat Foto Menu
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <section class="section" id="struktur" aria-labelledby="struktur-heading" data-nav-section>
+      <div class="container">
+
+        <div class="section-header section-header--center">
+          <div class="section-label section-label--purple"><i class="bi bi-diagram-3" aria-hidden="true"></i> Manajemen &amp; Tim</div>
+          <h2 class="section-title" id="struktur-heading">Struktur Organisasi <mark>Volare Coffee</mark></h2>
+          <p class="section-desc">Setiap minuman didukung tim yang menjaga stok, keuangan, dan layanan di kafe.</p>
+        </div>
+
+        <div class="org-structure" aria-label="Struktur organisasi Volare Coffee">
+          <article class="org-lead">
+            <div class="org-lead-icon" aria-hidden="true">
+              <i class="bi bi-award-fill"></i>
+            </div>
+            <div class="org-lead-content">
+              <span class="org-eyebrow">Kepemimpinan</span>
+              <h3>Owner</h3>
+              <p>Memimpin kegiatan operasional dan menentukan arah pengembangan Volare Coffee.</p>
+            </div>
+          </article>
+
+          <div class="org-connector" aria-hidden="true"></div>
+          <div class="org-team-heading"><span>Tim operasional</span></div>
+
+          <div class="org-staff-row">
+            <article class="org-role-card">
+              <div class="org-role-icon" aria-hidden="true"><i class="bi bi-box-seam-fill"></i></div>
+              <h3>Staf Gudang</h3>
+              <p>Mengelola persediaan bahan baku, memeriksa stok, dan memastikan kebutuhan operasional tersedia.</p>
+            </article>
+            <article class="org-role-card">
+              <div class="org-role-icon" aria-hidden="true"><i class="bi bi-calculator-fill"></i></div>
+              <h3>Keuangan</h3>
+              <p>Mengelola pemasukan, pengeluaran, pencatatan transaksi, dan laporan keuangan.</p>
+            </article>
+            <article class="org-role-card">
+              <div class="org-role-icon" aria-hidden="true"><i class="bi bi-cup-hot-fill"></i></div>
+              <h3>Staf Barista</h3>
+              <p>Menyiapkan minuman, menjaga kualitas produk, dan melayani pelanggan.</p>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <section class="section section--alt" id="galeri-section" aria-label="Keunggulan, Galeri, dan Ulasan Volare Coffee">
+      <div class="container">
+        <div class="keunggulan-block" id="keunggulan" data-nav-section>
+
+        <div class="section-header section-header--center">
+          <div class="section-label"><i class="bi bi-patch-check" aria-hidden="true"></i> Kenapa Memilih Kami</div>
+          <h2 class="section-title" id="keunggulan-heading">Nilai &amp; Keunggulan <mark>Volare Coffee</mark></h2>
+          <p class="section-desc">Tiga pilar yang selalu kami jaga untuk memastikan setiap momen kunjunganmu terasa istimewa.</p>
+        </div>
+
+        <div class="feature-cards" role="list">
+
+          <article class="feature-card" role="listitem">
+            <div class="feature-num" aria-hidden="true">01.</div>
+            <h3>Kreasi Menu yang Unik</h3>
+            <p>Nikmati berbagai pilihan minuman dengan cita rasa khas, mulai dari Matcha Ube, Ube Latte, hingga Ube Berry Cloud yang siap menemani setiap momenmu.</p>
+          </article>
+
+          <article class="feature-card" role="listitem">
+            <div class="feature-num" aria-hidden="true">02.</div>
+            <h3>Suasana Nyaman dan Menarik</h3>
+            <p>Hadir dengan perpaduan nuansa hijau dan ungu yang memberikan kesan segar dan menenangkan. Tempat yang cocok untuk berkumpul, mengerjakan tugas, maupun menikmati waktu sendiri.</p>
+          </article>
+
+          <article class="feature-card" role="listitem">
+            <div class="feature-num" aria-hidden="true">03.</div>
+            <h3>Pelayanan Ramah dan Bersahabat</h3>
+            <p>Kami berkomitmen memberikan pelayanan yang ramah dan menyenangkan agar setiap kunjungan terasa lebih berkesan. Senyum hangat barista siap menyambut harimu.</p>
+          </article>
+
+        </div>
+
+        
+        <div class="cta-banner">
+          <h3>Lebih dari Sekadar Menikmati Minuman</h3>
+          <p>
+            Di Volare Coffee, kami percaya bahwa kebahagiaan bisa dimulai dari hal sederhana. Secangkir minuman favorit, suasana yang nyaman, dan kebersamaan yang menyenangkan menjadi bagian dari pengalaman yang ingin kami hadirkan.
+          </p>
+          <p class="cta-tagline">Volare Coffee – Lift Your Day!</p>
+          <p class="mt-8" style="font-size: 14px; color: var(--purple-mid); font-weight: 600;">Yuk, jadikan Volare bagian dari cerita menyenangkanmu hari ini.</p>
+        </div>
+
+        </div>
+
+        <div class="gallery-block" id="galeri" data-nav-section>
+
+        <div class="section-header section-header--center">
+          <div class="section-label"><i class="bi bi-camera" aria-hidden="true"></i> Galeri &amp; Ulasan</div>
+          <h2 class="section-title" id="galeri-heading">Galeri &amp; Ulasan <mark>Volare Coffee</mark></h2>
+          <p class="section-desc">Lihat suasana Volare Coffee dan cerita dari pengunjung kami.</p>
+        </div>
+
+        <div class="gallery-grid" role="list" aria-label="Galeri foto kafe">
+          <div class="gallery-item gallery-item--wide viewable" data-src="assets/img/volare/image8.jpeg" data-caption="Ruang duduk indoor — sejuk, tenang, dan nyaman untuk WFC" role="listitem">
+            <img src="assets/img/volare/image8.jpeg" alt="Ruang duduk indoor Volare Coffee" loading="lazy">
+            <div class="gallery-caption" aria-hidden="true">Indoor Space: Sejuk, tenang &amp; nyaman untuk tugas / WFC</div>
+          </div>
+          <div class="gallery-item viewable" data-src="assets/img/volare/image7.jpeg" data-caption="Espresso bar modern dengan detail ornamen burung ikonik" role="listitem">
+            <img src="assets/img/volare/image7.jpeg" alt="Area barista bar Volare Coffee" loading="lazy">
+            <div class="gallery-caption" aria-hidden="true">Espresso bar dengan ornamen burung ikonik</div>
+          </div>
+          <div class="gallery-item viewable" data-src="assets/img/volare/image6.png" data-caption="Area outdoor dan smoking area yang asik buat santai" role="listitem">
+            <img src="assets/img/volare/image6.png" alt="Area outdoor Volare Coffee" loading="lazy">
+            <div class="gallery-caption" aria-hidden="true">Outdoor &amp; smoking area yang asik buat nongkrong</div>
+          </div>
+          <div class="gallery-item viewable" data-src="assets/img/volare/image9.jpeg" data-caption="Tampak depan Volare Coffee saat malam hari" role="listitem">
+            <img src="assets/img/volare/image9.jpeg" alt="Tampak depan Volare Coffee malam hari" loading="lazy">
+            <div class="gallery-caption" aria-hidden="true">Tampak malam: Neon sign Volare Coffee yang hangat</div>
+          </div>
+          <div class="gallery-item gallery-item--wide viewable" data-src="assets/img/volare/image10.png" data-caption="Sudut bar utama dengan sentuhan warna hijau pastel" role="listitem">
+            <img src="assets/img/volare/image10.png" alt="Sudut bar utama Volare Coffee" loading="lazy">
+            <div class="gallery-caption" aria-hidden="true">Sudut bar utama dengan sentuhan warna hijau pastel</div>
+          </div>
+          <div class="gallery-item viewable" data-src="assets/img/volare/image3.png" data-caption="3 Nilai kreasi menu unik dan suasana nyaman" role="listitem">
+            <img src="assets/img/volare/image3.png" alt="Keunggulan Volare Coffee" loading="lazy">
+            <div class="gallery-caption" aria-hidden="true">Kreasi Menu, Suasana, &amp; Pelayanan</div>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="reviews-block" id="ulasan" data-nav-section>
+        <div class="section-header section-header--center reviews-section-header">
+          <div class="section-label section-label--purple"><i class="bi bi-chat-square-quote" aria-hidden="true"></i> Cerita Seru dari Volare</div>
+          <h3 class="section-title">Pengalaman Seru di <mark>Volare Coffee</mark></h3>
+          <p class="section-desc">Hal-hal kecil yang membuat setiap kunjungan terasa istimewa. Setiap kunjungan punya cerita, setiap tegukan punya kesan.</p>
+        </div>
+
+        <div class="testi-banner">
+          <img src="assets/img/volare/image5.jpeg" alt="Pengalaman Seru di Volare Coffee Banner" loading="lazy">
+        </div>
+
+        <p class="review-scroll-hint"><i class="bi bi-arrow-left-right" aria-hidden="true"></i> Geser ke kiri untuk membaca ulasan lainnya</p>
+        <div class="testi-cards" role="list" aria-label="Ulasan bintang lima" tabindex="0">
+
+          <article class="testi-card" role="listitem">
+            <p class="testi-label">01. Suasana yang Bikin Betah</p>
+            <div class="testi-stars" aria-label="Rating 5 dari 5 bintang">★★★★★</div>
+            <h3 class="testi-title">Adem banget buat ngerjain tugas!</h3>
+            <p class="testi-text">
+              "Awalnya tahu Volare dari rekomendasi teman book club, ternyata tempatnya senyaman itu! Matcha-nya enak, tersedia area smoking, dan bagian dalam kafenya adem banget buat ngerjain tugas. Toiletnya juga bersih dan wangi, jadi makin betah. Pasti bakal datang lagi!"
+            </p>
+            <p class="testi-footer">PENGALAMAN PENGUNJUNG</p>
+          </article>
+
+          <article class="testi-card" role="listitem">
+            <p class="testi-label">02. Rasa yang Selalu Juara</p>
+            <div class="testi-stars" aria-label="Rating 5 dari 5 bintang">★★★★★</div>
+            <h3 class="testi-title">Strawberry &amp; Matcha Ube juaranya!</h3>
+            <p class="testi-text">
+              "Semuanya enak! Strawberry Ube dan Matcha Ube-nya benar-benar rekomendasi banget. Nggak heran kalau Volare selalu ramai. Rasanya enak, harganya terjangkau, dan suasananya juga nyaman banget. Bikin betah dan pengen balik lagi!"
+            </p>
+            <p class="testi-footer">PENGALAMAN PENGUNJUNG</p>
+          </article>
+
+          <article class="testi-card" role="listitem">
+            <p class="testi-label">03. Selalu Jadi Favorit</p>
+            <div class="testi-stars" aria-label="Rating 5 dari 5 bintang">★★★★★</div>
+            <h3 class="testi-title">Matcha terbaik buat WFC!</h3>
+            <p class="testi-text">
+              "Sudah berkali-kali beli dan nggak pernah mengecewakan! Matcha Volare jadi salah satu yang terbaik dari semua yang pernah aku coba. Tempatnya nyaman buat WFC, Wi-Fi lancar, musiknya nggak berisik, toiletnya bersih, dan pelayanannya ramah banget. Bakal terus jadi tempat favorit!"
+            </p>
+            <p class="testi-footer">PENGALAMAN PENGUNJUNG</p>
+          </article>
+
+          <a class="testi-more-link" role="listitem" href="https://maps.app.goo.gl/wXt1myrRh1uadoa68" target="_blank" rel="noopener noreferrer" aria-label="Lihat ulasan Volare Coffee lainnya di Google Maps">
+            Lihat Review Selengkapnya <i class="bi bi-arrow-right" aria-hidden="true"></i>
+          </a>
+
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    
+    <section class="section section--sand" id="reservasi" aria-labelledby="reservasi-heading">
+      <div class="container">
+
+        <div class="section-header section-header--center">
+          <div class="section-label"><i class="bi bi-calendar-event" aria-hidden="true"></i> Reservasi Meja</div>
+          <h2 class="section-title" id="reservasi-heading">Kotak Reservasi <mark>Volare Coffee</mark></h2>
+          <p class="section-desc">Mau ngerjain tugas bareng teman, meeting santai, atau nongkrong seru? Amankan mejamu lebih dulu agar kunjunganmu makin nyaman!</p>
+        </div>
+
+        <div class="res-grid">
+
+          
+          <div class="res-info">
+            <h3>Nikmati Kenyamanan Terbaik di Volare</h3>
+            <p>Dengan melakukan reservasi terlebih dahulu, kami bisa menyiapkan meja terbaik sesuai kebutuhanmu, mulai dari stopkontak laptop yang memadai hingga spot duduk favorit.</p>
+
+            <ul class="res-perks" aria-label="Fasilitas kafe">
+              <li class="res-perk"><i class="bi bi-wifi" aria-hidden="true"></i> Koneksi Wi-Fi kencang &amp; stabil untuk WFC</li>
+              <li class="res-perk"><i class="bi bi-plug-fill" aria-hidden="true"></i> Stopkontak listrik di banyak titik meja</li>
+              <li class="res-perk"><i class="bi bi-snow" aria-hidden="true"></i> Ruangan indoor ber-AC sejuk &amp; harum</li>
+              <li class="res-perk"><i class="bi bi-wind" aria-hidden="true"></i> Pilihan area outdoor &amp; smoking yang nyaman</li>
+              <li class="res-perk"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Toilet wangi, bersih, dan higienis</li>
+            </ul>
+
+            <div class="res-note">
+              Konfirmasi reservasi akan langsung terhubung ke WhatsApp resmi Volare Coffee di <strong>0822 2717 7121</strong>.
+            </div>
+          </div>
+
+          
+          <div class="res-form-card">
+            <div class="res-form-heading">
+              <h4>Formulir Reservasi Meja</h4>
+              <p>Isi formulir di bawah ini dan kami akan segera mengonfirmasi mejamu.</p>
+            </div>
+
+            <form id="reservationForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="resName">Nama Lengkap <span aria-hidden="true">*</span></label>
+                  <input type="text" id="resName" class="form-control" placeholder="Contoh: Sarah Nabila" required aria-required="true">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="resPhone">Nomor WhatsApp <span aria-hidden="true">*</span></label>
+                  <input type="tel" id="resPhone" class="form-control" placeholder="08xxxxxxxxxx" required aria-required="true">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="resDate">Tanggal Kunjungan <span aria-hidden="true">*</span></label>
+                  <input type="date" id="resDate" class="form-control" required aria-required="true">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="resTime">Jam Kunjungan <span aria-hidden="true">*</span></label>
+                  <input type="time" id="resTime" class="form-control" required aria-required="true">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="resGuests">Jumlah Orang (Pax)</label>
+                  <select id="resGuests" class="form-control">
+                    <option value="1">1 Orang (Me-time / Focus WFC)</option>
+                    <option value="2" selected>2 Orang</option>
+                    <option value="3-4">3 - 4 Orang</option>
+                    <option value="5-8">5 - 8 Orang</option>
+                    <option value="9+">Lebih dari 8 Orang (Group)</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="resArea">Pilihan Area Duduk</label>
+                  <select id="resArea" class="form-control">
+                    <option value="Indoor AC (Bebas Asap)">Indoor AC (Bebas Asap, Dekat Colokan)</option>
+                    <option value="Outdoor / Smoking Area">Outdoor / Smoking Area</option>
+                    <option value="Area Bar / Bebas Saja">Bebas Mana Saja yang Tersedia</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="resNotes">Catatan Khusus <span class="form-label-optional">(opsional)</span></label>
+                <textarea id="resNotes" class="form-control" rows="3" placeholder="Contoh: Butuh meja dekat stopkontak untuk ngerjain tugas skripsi / acara ulang tahun kecil"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100 pt-13 pb-13 fs-15">
+                <i class="bi bi-whatsapp" aria-hidden="true"></i> Kirim Reservasi ke WhatsApp Volare
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+
+        <div class="footer-brand-col">
+          <div class="footer-logo">
+            <img src="assets/img/volare/logo_badge.png" alt="Logo Volare Coffee" width="34" height="34">
+            <span class="footer-logo-name">VOLARE COFFEE</span>
+          </div>
+          <p class="footer-about">
+            Terima kasih telah menjadi bagian dari cerita Volare Coffee. Kami berharap setiap kunjungan dan setiap minuman yang kamu nikmati dapat memberikan kebahagiaan kecil untuk harimu.
+          </p>
+          <p class="mt-8" style="font-size: 13px; color: var(--green-soft); font-weight: 700;">VOLARE COFFEE — LIFT YOUR DAY.<br><span style="font-weight: 400; color: rgba(255,255,255,0.5);">Yogyakarta, Indonesia</span></p>
+        </div>
+
+        <div class="footer-map-col">
+          <p class="footer-heading">Peta Lokasi</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0861159220945!2d110.3898612731981!3d-7.780693792238989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a594b0ab3f935%3A0x1ac87a311177fa3e!2sVolare%20Coffee!5e0!3m2!1sid!2sid!4v1794622353647!5m2!1sid!2sid"
+            title="Peta lokasi Volare Coffee Yogyakarta"
+            aria-label="Peta lokasi Volare Coffee Yogyakarta"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin">
+          </iframe>
+          <a class="footer-map-link" href="https://maps.app.goo.gl/wXt1myrRh1uadoa68" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Buka di Google Maps
+          </a>
+        </div>
+
+        <div class="footer-contact-col">
+          <p class="footer-heading">Kontak &amp; Pesan Antar</p>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-row"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i><a href="https://maps.app.goo.gl/wXt1myrRh1uadoa68" target="_blank" rel="noopener noreferrer" title="Buka lokasi Volare Coffee di Google Maps">Caturtunggal, Depok, Sleman Regency, Special Region of Yogyakarta, Indonesia</a></li>
+            <li class="footer-contact-row"><i class="bi bi-whatsapp" aria-hidden="true"></i><a href="https://wa.me/6282227177121" target="_blank" rel="noopener noreferrer">0822 2717 7121</a></li>
+            <li class="footer-contact-row"><i class="bi bi-instagram" aria-hidden="true"></i><a href="https://instagram.com/volare_idn" target="_blank" rel="noopener noreferrer">@volare_idn</a></li>
+            <li class="footer-contact-row"><i class="bi bi-tiktok" aria-hidden="true"></i><a href="https://tiktok.com/@volare_idn" target="_blank" rel="noopener noreferrer">@volare_idn</a></li>
+            <li class="footer-contact-row"><i class="bi bi-bag-check-fill" aria-hidden="true"></i><a href="https://gofood.link/a/NFK8N2W?utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" rel="noopener noreferrer">GoFood</a></li>
+            <li class="footer-contact-row"><i class="bi bi-bicycle" aria-hidden="true"></i><a href="https://food.grab.com/id/id/restaurant/volare-coffee-catur-tunggal-delivery/6-C6XTMBW2VX6ZVN" target="_blank" rel="noopener noreferrer">GrabFood</a></li>
+            <li class="footer-contact-row"><i class="bi bi-shop" aria-hidden="true"></i><a href="https://shopee.co.id/universal-link/now-food/shop/21829354?deep_and_deferred=1&shareChannel=copy_link" target="_blank" rel="noopener noreferrer">ShopeeFood</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Volare Coffee Yogyakarta. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  
+  <details class="fab-menu">
+    <summary class="fab-toggle">
+      <i class="bi bi-chat-dots-fill" aria-hidden="true"></i>
+      <span>Hubungi</span>
+    </summary>
+    <div class="fab-options" aria-label="Pilihan kontak cepat">
+      <a href="#reservasi" class="fab fab--res">
+        <i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Reservasi
+      </a>
+      <a href="https://wa.me/6282227177121?text=Halo%20Volare%20Coffee!%20Saya%20ingin%20bertanya%20mengenai%20menu%20dan%20informasi%20kafe." target="_blank" rel="noopener noreferrer" class="fab fab--wa">
+        <i class="bi bi-whatsapp" aria-hidden="true"></i> WhatsApp
+      </a>
+    </div>
+  </details>
+
+  
+  <div class="modal-backdrop" id="modalReservasi" role="dialog" aria-modal="true" aria-labelledby="modal-res-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close modal-close-trigger" aria-label="Tutup dialog">&times;</button>
+      <div class="modal-icon" aria-hidden="true"><i class="bi bi-check-circle-fill"></i></div>
+      <h2 class="modal-title" id="modal-res-title">Reservasi Disiapkan!</h2>
+      <p class="modal-desc">Data reservasi Anda telah diformat secara otomatis. Kami mengalihkan ke WhatsApp resmi Volare Coffee untuk konfirmasi instan.</p>
+      <div class="modal-summary" id="modalResSummary" aria-live="polite"></div>
+      <div class="modal-actions">
+        <a href="#" id="waLink" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <i class="bi bi-whatsapp" aria-hidden="true"></i> Buka WhatsApp Sekarang
+        </a>
+        <button class="btn btn-ghost modal-close-trigger">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="modal-backdrop" id="modalLightbox" role="dialog" aria-modal="true" aria-label="Tampilan gambar menu fisik" aria-hidden="true">
+    <div class="modal-dialog modal-dialog--wide">
+      <button class="modal-close modal-close-trigger" aria-label="Tutup tampilan gambar">&times;</button>
+      <div class="modal-img-wrap">
+        <img id="lightboxImg" src="" alt="Menu Fisik Volare Coffee">
+      </div>
+      <p class="modal-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  
+  <script src="assets/js/volare.js"></script>
+</body>
+</html>
