@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Volare Coffee — Lift Your Day ♡
 
 Website resmi untuk **Volare Coffee** (Yogyakarta, Indonesia) dengan konsep desain **Nuansa Hijau & Ungu Pastel (Matcha Green & Ube Purple)** yang estetik, modern, dan nyaman.
@@ -56,6 +55,3 @@ Website resmi untuk **Volare Coffee** (Yogyakarta, Indonesia) dengan konsep desa
     - Instagram: `@volare_idn`
 12. **Sampai Bertemu di Volare! (Footer):**
     - Pesan penutup, ucapan terima kasih, dan tautan media sosial lengkap.
-=======
-# Volare-Coffee
->>>>>>> 7893c342866b34db2b97bd190476dbaf3b4b5f16
