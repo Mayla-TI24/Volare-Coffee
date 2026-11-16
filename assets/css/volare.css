@@ -1540,20 +1540,6 @@ section[id],
   margin-top: var(--section-head-gap);
 }
 
-.testi-banner {
-  border-radius: var(--r-md);
-  overflow: hidden;
-  border: 1px solid var(--border-subtle);
-  margin-bottom: var(--section-head-gap);
-  max-width: 860px;
-  margin-inline: auto;
-}
-
-.testi-banner img {
-  width: 100%;
-  display: block;
-}
-
 .testi-cards {
   display: flex;
   align-items: stretch;
