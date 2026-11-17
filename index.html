@@ -488,40 +488,138 @@
         <div class="section-header section-header--center">
           <div class="section-label section-label--purple"><i class="bi bi-diagram-3" aria-hidden="true"></i> Manajemen &amp; Tim</div>
           <h2 class="section-title" id="struktur-heading">Struktur Organisasi <mark>Volare Coffee</mark></h2>
-          <p class="section-desc">Setiap minuman didukung tim yang menjaga stok, keuangan, dan layanan di kafe.</p>
+          <p class="section-desc">Pembagian peran tim Volare Coffee dari kepemimpinan hingga operasional harian.</p>
         </div>
 
-        <div class="org-structure" aria-label="Struktur organisasi Volare Coffee">
-          <article class="org-lead">
-            <div class="org-lead-icon" aria-hidden="true">
-              <i class="bi bi-award-fill"></i>
-            </div>
-            <div class="org-lead-content">
-              <span class="org-eyebrow">Kepemimpinan</span>
-              <h3>Owner</h3>
-              <p>Memimpin kegiatan operasional dan menentukan arah pengembangan Volare Coffee.</p>
-            </div>
-          </article>
+        <div class="org-structure" role="group" aria-label="Bagan struktur organisasi Volare Coffee">
+          <div class="org-owner-group">
+            <article class="org-lead">
+              <div class="org-lead-icon" aria-hidden="true">
+                <i class="bi bi-award-fill"></i>
+              </div>
+              <div class="org-lead-content">
+                <span class="org-eyebrow">Top Management</span>
+                <h3>Owner <span>(Pimpinan)</span></h3>
+              </div>
+            </article>
 
+            <ul class="org-owner-tasks" aria-label="Fungsi operasional Owner">
+              <li class="org-task-node">
+                <strong>Manajemen Login Sistem</strong>
+                <span>Mengelola akun dan akses pengguna sistem.</span>
+              </li>
+              <li class="org-task-node">
+                <strong>Data Produk &amp; Harga</strong>
+                <span>Menginput dan mengelola data produk beserta harga.</span>
+              </li>
+              <li class="org-task-node">
+                <strong>Data Staf</strong>
+                <span>Menginput dan memperbarui data staf.</span>
+              </li>
+              <li class="org-task-node">
+                <strong>Data Penjualan</strong>
+                <span>Memeriksa rekap data penjualan.</span>
+              </li>
+              <li class="org-task-node">
+                <strong>Data Transaksi</strong>
+                <span>Memeriksa catatan transaksi.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="org-level-label">Level Operasional</div>
           <div class="org-connector" aria-hidden="true"></div>
-          <div class="org-team-heading"><span>Tim operasional</span></div>
-
-          <div class="org-staff-row">
-            <article class="org-role-card">
-              <div class="org-role-icon" aria-hidden="true"><i class="bi bi-box-seam-fill"></i></div>
-              <h3>Staf Gudang</h3>
-              <p>Mengelola persediaan bahan baku, memeriksa stok, dan memastikan kebutuhan operasional tersedia.</p>
-            </article>
-            <article class="org-role-card">
-              <div class="org-role-icon" aria-hidden="true"><i class="bi bi-calculator-fill"></i></div>
-              <h3>Keuangan</h3>
-              <p>Mengelola pemasukan, pengeluaran, pencatatan transaksi, dan laporan keuangan.</p>
-            </article>
-            <article class="org-role-card">
-              <div class="org-role-icon" aria-hidden="true"><i class="bi bi-cup-hot-fill"></i></div>
-              <h3>Staf Barista</h3>
-              <p>Menyiapkan minuman, menjaga kualitas produk, dan melayani pelanggan.</p>
-            </article>
+          <div class="org-staff-row" role="list" aria-label="Posisi dan fungsi operasional">
+            <div class="org-role-group" role="listitem">
+              <article class="org-role-card">
+                <div class="org-role-heading">
+                  <div class="org-role-icon" aria-hidden="true"><i class="bi bi-box-seam-fill"></i></div>
+                  <div>
+                    <h3>Staf Gudang</h3>
+                    <span>Inventory</span>
+                  </div>
+                </div>
+              </article>
+              <div class="org-role-connector" aria-hidden="true"></div>
+              <ul class="org-task-list" aria-label="Fungsi Staf Gudang">
+                <li class="org-task-node">
+                  <strong>Manajemen Login Sistem</strong>
+                  <span>Mengelola akun dan akses pengguna sistem.</span>
+                </li>
+                <li class="org-task-node">
+                  <strong>Stok Bahan Baku</strong>
+                  <span>Menginput dan memperbarui data stok bahan baku.</span>
+                </li>
+                <li class="org-task-node">
+                  <strong>Transaksi Gudang</strong>
+                  <span>Menginput dan mengelola data transaksi gudang.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="org-role-group" role="listitem">
+              <article class="org-role-card">
+                <div class="org-role-heading">
+                  <div class="org-role-icon" aria-hidden="true"><i class="bi bi-cup-hot-fill"></i></div>
+                  <div>
+                    <h3>Staf Barista</h3>
+                    <span>Produksi</span>
+                  </div>
+                </div>
+              </article>
+              <div class="org-role-connector" aria-hidden="true"></div>
+              <ul class="org-task-list" aria-label="Fungsi Staf Barista">
+                <li class="org-task-node">
+                  <strong>Manajemen Login Sistem</strong>
+                  <span>Mengelola akun dan akses pengguna sistem.</span>
+                </li>
+                <li class="org-task-node">
+                  <strong>Ketersediaan Produk</strong>
+                  <span>Menginput data ketersediaan produk harian.</span>
+                </li>
+                <li class="org-task-node">
+                  <strong>Produksi Harian</strong>
+                  <span>Menginput catatan produksi setiap hari.</span>
+                </li>
+                <li class="org-task-node">
+                  <strong>Stok Bahan Baku</strong>
+                  <span>Memeriksa ketersediaan bahan baku untuk produksi.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="org-role-group" role="listitem">
+              <article class="org-role-card">
+                <div class="org-role-heading">
+                  <div class="org-role-icon" aria-hidden="true"><i class="bi bi-cash-coin"></i></div>
+                  <div>
+                    <h3>Kasir</h3>
+                    <span>Transaksi</span>
+                  </div>
+                </div>
+              </article>
+              <div class="org-role-connector" aria-hidden="true"></div>
+              <ul class="org-task-list" aria-label="Fungsi Kasir">
+                <li class="org-task-node">
+                  <strong>Manajemen Login Sistem</strong>
+                  <span>Mengelola akun dan akses pengguna sistem.</span>
+                </li>
+                <li class="org-task-node">
+                  <strong>Penjualan Langsung</strong>
+                  <span>Menginput data penjualan langsung kepada pelanggan.</span>
+                </li>
+                <li class="org-task-node">
+                  <strong>Ketersediaan Produk</strong>
+                  <span>Memeriksa produk yang tersedia untuk transaksi.</span>
+                </li>
+                <li class="org-task-node">
+                  <strong>Produksi Harian</strong>
+                  <span>Memeriksa data produksi harian.</span>
+                </li>
+                <li class="org-task-node">
+                  <strong>Data Produk &amp; Harga</strong>
+                  <span>Memeriksa data produk dan harga yang berlaku.</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
